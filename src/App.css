@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.app-grid {
+  display : grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap : 16px;
+  row-gap : 16px;
+  max-width : 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 50px;
+  background: rgb(255, 255, 255);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.imgg {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-left {
+  
+  color: whitesmoke;
+  padding: 20px;
+ background-color: rgb(221, 179, 88);
+
+width: 340px;
+
 }
+
+
+.name {
+  
+  display:flex;
+ 
+  align-items: flex-start;
+  font-size: 30px ;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.front {
+  
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pro {
+  padding-top: 20px;
+  font-size: 20px;
+  margin-top: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.skills {
+  
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.con {
+  
+  font-size: 20px; ;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.exp {
+  padding-top: 20px;
+  font-size: 20px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.edu {
+  padding-top: 20px;
+  font-size: 20px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.lan {
+  padding-top: 20px;
+  font-size: 20px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hob {
+  padding-top: 20px;
+  font-size: 20px; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.box-left  h3  {color:whitesmoke;}
+.text-color  {color : whitesmoke;}
+
+h3 {padding : 0px; margin: 0px }
+h4 {padding : 0px; margin: 0px }
+
